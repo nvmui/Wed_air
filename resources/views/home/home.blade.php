@@ -1,6 +1,5 @@
 @extends('layouts.home.app')
 @section('content')
-
     <!-- pre-loader start -->
     <div class="loader-wrapper img-gif">
         <img src="{{URL::asset('assets/frontend/images/loader.gif')}}" alt="">
@@ -113,7 +112,7 @@
     <section class="menu-section section-b-space">
         <div class="container">
             <div class="title-1 title-5">
-                <span class="title-label">rica</span>
+                <span class="title-label">Rica</span>
                 <h2>Danh Sách Các Chuyến Bay</h2>
                 <p>Tất Cả Các Chuyến Bay Đi Đến Các Thành Phố Lớn Tại Đây</p>
             </div>

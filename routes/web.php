@@ -7,6 +7,7 @@ use App\Http\Controllers\AircraftController;
 use App\Http\Controllers\PilotController;
 use App\Http\Controllers\CertificationController;
 use App\Http\Controllers\HomeController;
+use Illuminate\Support\Facades\Auth;
 
 /*HOME*/
 Route::get('/', [HomeController::class, 'home'])->name('home');
